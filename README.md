@@ -2,14 +2,14 @@
 
 This project was created for my Single Page Application class. It shows how you can fetch and display API data from the client side in React. There currently is no backend, but the API call to the OpenWeather API should be moved there.
 
-To use, update the `key` variable in `src/Weather.tsx` with an OpenWeatherMap API ket. You can get that.[here](https://openweathermap.org/appid).
+To use, update the `key` variable in `src/components/Weather.tsx` with an OpenWeatherMap API ket. You can get that.[here](https://openweathermap.org/appid).
 
 ## Available Scripts
 
-### `npm start`
+### `HTTPS=true npm run start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [https://localhost:3000](https://localhost:3000) to view it in the browser.
 
 ### `npm test`
 
