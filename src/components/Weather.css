@@ -1,0 +1,48 @@
+.weather {
+    width: 20%;
+    padding: 1rem;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    background-color: white;
+
+}
+
+.weather > form input, .weather > form button {
+    padding: 0.25rem 1rem;
+    border: 1px solid;
+}
+
+.weather > form input {
+    width: 100%;
+    margin: 0.25rem 0;
+    padding: 0.25rem 1rem;
+    border-radius: 0.15rem;
+    box-sizing: border-box;
+}
+
+.weather > form select {
+    width: 100%;
+}
+
+.weather > form button {
+    width: 100%;
+    margin: 0.15rem 0 0 0;
+    padding: 0.25rem 1rem;
+    border-radius: 0.15rem;
+    display: block;
+    background-color: #008ace;
+    color: #ffffff;
+}
+
+.weather > .APIErrorMsg h1, .weather > .WeatherData h1 {
+    margin: 0;
+}
+
+.weather > .APIErrorMsg p, .weather > .WeatherData p {
+    margin: 0;
+}
+
+.weather > .WeatherData {
+    display: flex;
+    justify-content: space-between;
+
+}
